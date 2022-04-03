@@ -1,8 +1,7 @@
-let hour = document.querySelector('#hour');
+        let hour = document.querySelector('#hour');
         let minute = document.querySelector('#minute');
         let second = document.querySelector('#second');
 
-        //Je stock la class Date crée par JS dans ma variable 
         
         setInterval(() => {
 
@@ -25,6 +24,7 @@ let hour = document.querySelector('#hour');
             let m = new Date().getMinutes();
             let s = new Date().getSeconds();
 
+            //Changer l'afficheur AM/PM en fonction de l'heure
             let am = h >= 12 ? "PM" : 'AM';
 
             //convert 24 hours to 12 hours
