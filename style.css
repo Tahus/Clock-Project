@@ -12,17 +12,12 @@ body
 {
     display:flex;
     justify-content:center;
+    padding-top : 143px;
     align-items:center;
     background: #b87a98;
 }
 
-#title-page {
-    color: red;
-    padding-bottom:784px;
-    padding-left: 134px;
 
-
-}
 
 
 .container 
